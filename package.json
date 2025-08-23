@@ -1,0 +1,23 @@
+{
+  "name": "horrible-tokens",
+  "version": "1.0.0",
+  "description": "```cpp\r enum class Tokens: unsigned short {\r #define TOKEN(X) X,\r #include \"horribletokens/Tokens.def\"\r   NUM_TOKENS\r };\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstCorrectness/horrible-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConstCorrectness/horrible-tokens/issues"
+  },
+  "homepage": "https://github.com/ConstCorrectness/horrible-tokens#readme",
+  "dependencies": {
+    "mermaid": "^11.10.1"
+  }
+}
