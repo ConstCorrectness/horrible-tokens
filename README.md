@@ -36,7 +36,7 @@ flowchart LR
         id5["12"]
     end
 
-    subgraph tokenembeddings["Token Embeddings (Seq × Dim)"]
+    subgraph tokenembeddings["Token Embeddings"]
         direction TB
         e1["t₁ = [0.12, -0.45, 0.67, ...]"]
         e2["t₂ = [0.34, 0.88, -0.12, ...]"]
@@ -45,7 +45,7 @@ flowchart LR
         e5["t₅ = [0.03, 0.44, -0.78, ...]"]
     end
 
-    subgraph posembeddings["Positional Embeddings (Seq × Dim)"]
+    subgraph posembeddings["Positional Embeddings"]
         direction TB
         p1["p₁ = [0.01, 0.03, -0.02, ...]"]
         p2["p₂ = [0.05, -0.11, 0.08, ...]"]
@@ -54,7 +54,7 @@ flowchart LR
         p5["p₅ = [0.00, 0.12, -0.06, ...]"]
     end
 
-    subgraph inputembeddings["Input Embeddings (Token ⊕ Positional)"]
+    subgraph inputembeddings["Input Embeddings"]
         direction TB
         i1["t₁ + p₁"]
         i2["t₂ + p₂"]
